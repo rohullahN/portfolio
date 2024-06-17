@@ -1,118 +1,137 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "I'm Rohullah Noory, a passionate software developer and a proud graduate of the Software Engineering Technology program from Conestoga College. My journey into software development began when a professor compared it to magic, explaining how users see what happens without understanding the intricate processes behind it. This analogy sparked my curiosity and drove me to explore the world of software development, a curiosity that continues to fuel my growth and learning every day. One of my proudest achievements is winning Conestoga's Mastercraft award for my capstone project, recognized as the best among over 20 programs. While I primarily focus on frontend technologies, I also have experience working with backend development, giving me a well-rounded perspective on building comprehensive solutions. Outside of web development, I enjoy working out and reading, which helps me maintain a balanced and motivated lifestyle. I'm excited to continue my journey in the tech world, constantly striving to create seamless and impactful user experiences.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Expense Tracker",
+      "startDate": "2024",
+      "description": "A simple Expense Tracker application designed to help users manage their finances with ease and efficiency. Built using the MERN stack (MongoDB, Express, React, Node.js) and GraphQL, this application allows users to track their income, expenses, and investments in real-time. With an intuitive and user-friendly interface, users can easily add, edit, and delete transactions, categorize expenses, and visualize their spending patterns through an interactive chart. The application also features a secure authentication system to ensure user data privacy. Whether you're looking to budget better, save more, or simply keep a closer eye on your financial health, Expense Tracker application provides all the basic features to support your financial goals.",
+      "images": [
+        "images/portfolio/expense-tracker/ETHomePage.JPG",
+        "images/portfolio/expense-tracker/ETLogin.JPG"
+      ],
+      "liveDemoUrl": "https://github.com/rohullahN/Expense-Tracker",
+      "sourceCodeUrl": "https://github.com/rohullahN/Expense-Tracker",
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-tailwindcss-original",
+          "name": "Tailwind"
+        },
+        {
+          "class": "devicon-graphql-plain",
+          "name": "GraphQL"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "TrackrFC",
+      "startDate": "2024",
+      "description": "TrackrFC is an innovative soccer analytics tool that empowers club-level teams with advanced game analysis capabilities. Utilizing state-of-the-art computer vision and AI technologies, this platform allows users to upload game footage and receive comprehensive insights. Coaches and teams can explore player and ball movements on a tactical 2D map, access crucial statistics like possession, player positioning, and pass accuracy, and utilize the tactical board tool for strategic planning. Designed to be user-friendly and affordable, TrackrFC democratizes professional-grade analytics, making it an essential tool for teams seeking to enhance performance and gain a competitive edge. Awarded the prestigious Conestoga Mastercraft Award for excellence in project execution, beating out over 20 programs in engineering and IT.",
+      "images": [
+        "images/portfolio/trackrfc/TrackrFC.png",
+        "images/portfolio/trackrfc/TFChomepage.png"
+      ],
+      "liveDemoUrl": "https://www.youtube.com/watch?v=fo7wlEW5giI",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-socketio-original",
+          "name": "SocketIO"
+        },
+        {
+          "class": "devicon-flask-original",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-mysql-original",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-opencv-plain",
+          "name": "OpenCV"
+        }
+      ]
+    },
+    {
+      "title": "Transportation Management System",
+      "startDate": "2021",
+      "description": "A Logistics Windows App which allows purchasing, scheduling, monitoring and billing of organizations who desire to have cargo shipped via truck or train across Ontario, Canada. This application was built using C# and WPF (.Net Framework), with its database supported by MySQL, where all the data about carriers, contracts, users, clients, trips, and invoices are stored, following best practices.",
+      "images": [
+        "images/portfolio/TMS/TMS.png",
+        "images/portfolio/TMS/TMSadminPage.png"
+      ],
+      "liveDemoUrl": "https://www.youtube.com/watch?v=fmqJGEqpZvI",
+      "sourceCodeUrl": "https://github.com/rohullahN/Transportation-Management-System?tab=readme-ov-file",
+      "technologies": [
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-dotnetcore-plain",
+          "name": ".NET"
+        },
+        {
+          "class": "devicon-mysql-original",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Vehikl Inc.",
+      "title": "Software Developer",
+      "years": "01.2023 - 04.2024",
+      "mainTech": ["React", "PHP", "C#"],
+      "technologies": [
+        "TypeScript",
+        "React Native",
+        "REST API",
+        "JavaScript",
+        ".NET",
+        "Jest",
+        "PHPUnit",
+        "Git"
+      ]
+    },
+    {
+      "company": "Delta Elevator Co Ltd",
+      "title": "Co-op - IS Programmer",
+      "years": "05.2022 - 12.2022",
+      "mainTech": ["C#"],
+      "technologies": ["VB.NET", "Entity Framework", "xUnit", "Git"]
+    }
+  ]
+}
