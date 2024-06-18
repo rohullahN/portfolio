@@ -49,6 +49,11 @@
         "level": "70"
       },
       {
+        "name": "Express",
+        "class": "devicon-express-original",
+        "level": "70"
+      },
+      {
         "name": "MongoDB",
         "class": "devicon-mongodb-plain",
         "level": "70"
@@ -59,6 +64,11 @@
         "level": "70"
       },
       {
+        "name": "Jest",
+        "class": "devicon-jest-plain",
+        "level": "70"
+      },
+      {
         "name": "C#",
         "class": "devicon-csharp-plain",
         "level": "65"
@@ -66,6 +76,16 @@
       {
         "name": "MySql",
         "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
         "level": "60"
       }
     ]
